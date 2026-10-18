@@ -1,0 +1,18 @@
+{
+  "name": "practice-login-playwright",
+  "version": "1.0.0",
+  "description": "Playwright Page Object Model for login, exceptions, and course-table practice pages",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}

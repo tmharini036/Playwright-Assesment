@@ -1,0 +1,15 @@
+export const Tablelocators = {
+  language: (value) => `input[name="lang"][value="${value}"]`,
+  level: (value) => `input[name="level"][value="${value}"]`,
+  enrollDropdownButton: '#enrollDropdown .dropdown-button',
+  enrollOption: (value) => `#enrollDropdown li[role="option"][data-value="${value}"]`,
+  enrollLabel: '#enrollDropdown .dropdown-label',
+  resetButton: '#resetFilters',
+  sortBy: '#sortBy',
+  noData: '#noData',
+  visibleRows: '#courses_table tbody tr:visible',
+  courseCell: 'td[data-col="course"]',
+  languageCell: 'td[data-col="language"]',
+  levelCell: 'td[data-col="level"]',
+  enrollmentCell: 'td[data-col="enrollments"]',
+};
