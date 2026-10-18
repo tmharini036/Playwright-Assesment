@@ -87,6 +87,6 @@ Assesment/
 | TC-TABLE-05 | table | No matching courses |
 | TC-TABLE-06 | table | Reset restores defaults and hides itself |
 | TC-TABLE-07 | table | Enrollments sort ascending numerically |
-| TC-TABLE-08 | table | Course name stays A–Z after a filter change |
+
 
 Valid login data is username `student` and password `Password123`.
